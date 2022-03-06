@@ -1,0 +1,12 @@
+.right{
+  width: 80px;
+  length:auto;
+}
+body{
+  background-color:rgb(255, 194, 153);
+}
+h5{
+  text-align:center;
+  background-color:hsl(31, 100%, 90%);
+  color:DeepPink;
+}

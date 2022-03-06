@@ -1,5 +1,5 @@
 body{
-  background-color:RGB(250, 219, 216)
+  background-color:#FADBD8;
 }
 .center {
   display: block;
@@ -14,6 +14,18 @@ body{
   width: 150px;
   padding-top: 150px;
 }
+.right{
+  position: absolute;
+  left: 350px;
+  width: 150px;
+  padding-top: 190px;
+}
+.down{
+  position: absolute;
+  right: 425px;
+  width: 100px;
+  padding-top: 150px;
+}
 h5{
   text-align:justify;
   position: absolute;
@@ -24,4 +36,5 @@ h5{
 }
 h4{
   color:rgb(255, 52, 12);
+  background-color:#FF96B5 ;
 }

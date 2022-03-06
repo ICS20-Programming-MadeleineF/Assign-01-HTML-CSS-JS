@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--ICS20-Assign-01-HTML-CSS-JS -->
+<html lang="en-ca">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="My first assignment, with HTML, CSS, and JS">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Madeleine Forgeron">
+    <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+    <!-- Google's MDL -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+      <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.red-pink.min.css" /> 
+     <!--Favicon -->
+      <link rel="apple-touch-icon" sizes="180x180" href="./favicon_1/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="./favicon_1/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="./favicon_1/favicon-16x16.png">
+      <link rel="manifest" href="./favicon_1/site.webmanifest">
+    <!-- css file -->
+    <link rel="stylesheet" href="css/style2.css">
+   <title>Kawaragi Senju</title>
+  </head>
+  <body>
+    <!-- Google's MDL -->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+		
+    <div class = "mdl-layout mdl-js-layout mdl-layout--fixed-header">
+			<!-- Web page header -->
+      <header class = "mdl-layout__header">
+        <div class = "mdl-layout__header-row">      
+          <span class = "mdl-layout-title">Kawaragi Senju</span>         
+        </div>       
+      </header>
+<!-- Left aligned menu below button -->
+<button id="demo-menu-lower-left"
+        class="mdl-button mdl-js-button mdl-button--icon">
+  <i class="material-icons">more_vert</i>
+</button>
+
+<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect"
+    for="demo-menu-lower-left">
+  <li class="mdl-menu__item"><a href="./index.html">First Page</a></li>
+  <li class="mdl-menu__item mdl-menu__item--full-bleed-divider"><a href="https://tokyorevengers.fandom.com/wiki/Senju_Kawaragi">Tokyo Revengers Senju Kawaragi Wiki</a></li>
+  <li disabled class="mdl-menu__item">Edit</li>
+  <li class="mdl-menu__item"><a href="https://sites.google.com/ocsb.ca/ics2oprogramming/home?authuser=0">ICS2O Computer Studies</a></li>
+</ul>
+  <!-- Pop up button -->
+    <script>
+      function myButtonClicked() {
+        alert("Another secret here. so be quiet. Senju has two older brothers. The oldest is Akashi Takeomi, he's the vice-president of Brahman(Takeomi kept his real last name). The other brother is Sanzu Haruchiyo, he's the vice-president of the Kanto Manji gang, senju's enemy(Haruchiyo, like Senju, changed his last name but for different reasons)")
+    }
+    </script>
+   	<!-- Colored raised button -->
+		<button onclick="myButtonClicked()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+		  Click Here
+		</button>
+		<br></br>
+    </script>
+    <!-- Radio Button -->
+    <h5>Isn't Senju the best</h5>
+     <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+  <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
+  <span class="mdl-radio__label">Yes</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+  <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2" checked>
+  <span class="mdl-radio__label">Definitly</span>
+</label>
+<!-- Table of images MDL -->
+<table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable">
+  <thead>
+    <tr>
+      <th class="mdl-data-table__cell--non-numeric">All of them</th>
+      <th>Which photo of Senju is your favourite?</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">Workout Senju</td>
+      <td><img src="images/tumblr_6424db55fb555b1eb8f7eccbd315f36c_2cb06d86_250.jpg"alt="tumblr_6424db55fb555b1eb8f7eccbd315f36c_2cb06d86_250" class="right"></td>
+    </tr>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">Umbrella Senju</td>
+      <td><img src="images/E7UaVeWWUAIufhb.jpg"alt="E7UaVeWWUAIufhb" class="right"></td>
+    </tr>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">Material Girl Senju</td>
+      <td><img src="images/36115bd351ecd6c4e75ba463993045cc.jpg"alt="36115bd351ecd6c4e75ba463993045cc" class="right"></td>
+    </tr>
+  </tbody>
+</table>
