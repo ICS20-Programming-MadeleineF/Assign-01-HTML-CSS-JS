@@ -1,0 +1,27 @@
+body{
+  background-color:RGB(250, 219, 216)
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: auto;
+}
+.left{
+  position: absolute;
+  left: 75px;
+  width: 150px;
+  padding-top: 150px;
+}
+h5{
+  text-align:justify;
+  position: absolute;
+  right: 50px;
+  width: 300px;
+  padding-top: 100px;
+  color:HSL(6, 76%, 61%);
+}
+h4{
+  color:rgb(255, 52, 12);
+}
